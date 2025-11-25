@@ -838,612 +838,6 @@ button#b-add {
   display: none;
 }
 
-/* @media (max-width: 1199.98px) {
-  .container {
-    height: auto;
-  }
-
-  .navbar {
-    padding: 15px 20px;
-  }
-
-  .nav-links {
-    gap: 30px;
-  }
-
-  .sale-section,
-  .shop-by-categories,
-  .explore-bestsellers,
-  .lifestyle {
-    padding: 7px 20px 3px 20px;
-  }
-
-  .footer,
-  .f-footer {
-    padding: 40px 20px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .navbar {
-    flex-wrap: wrap;
-    padding: 10px 15px;
-  }
-
-  .nav-links {
-    order: 3;
-    width: 100%;
-    justify-content: center;
-    margin-top: 10px;
-    gap: 20px;
-  }
-
-  .adds {
-    margin-top: 140px;
-  }
-
-  .sale-prod,
-  .sale-prod-cat,
-  .explore-bestsellers-prod,
-  .recent-prod,
-  .lifestyle-grid,
-  .tribe-sale-prod,
-  .b-sale-prod {
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  }
-
-  .footer-links.a {
-    grid-template-columns: repeat(2, minmax(100px, 1fr));
-  }
-
-  .footer {
-    height: auto;
-  }
-
-  .footer-top {
-    flex-direction: column;
-  }
-
-  .footer-subscribe {
-    margin-right: 0;
-    margin-bottom: 30px;
-  }
-
-  #b-c {
-    right: 20px;
-  }
-
-  #b-d {
-    left: 20px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .top-offer {
-    font-size: 12px;
-    padding: 8px 0;
-  }
-
-  .navbar {
-    top: 32px;
-    padding: 8px 10px;
-  }
-
-  .logo img {
-    height: 28px;
-  }
-
-  .nav-links {
-    gap: 15px;
-    font-size: 14px;
-  }
-
-  .nav-links a {
-    font-size: 14px;
-  }
-
-  .search-box {
-    padding: 5px 15px;
-  }
-
-  .search-box input {
-    font-size: 12px;
-    padding: 5px 20px 5px 0;
-    width: 120px;
-  }
-
-  .icon {
-    font-size: 16px;
-  }
-
-  .adds {
-    margin-top: 120px;
-  }
-
-  .adds button {
-    padding: 10px;
-    font-size: 12px;
-  }
-
-  #b-a {
-    left: 10px;
-  }
-
-  #b-b {
-    right: 10px;
-  }
-
-  .sale-header h2 {
-    font-size: 20px;
-  }
-
-  .view-all {
-    font-size: 12px;
-  }
-
-  .sale-prod,
-  .sale-prod-cat,
-  .explore-bestsellers-prod,
-  .recent-prod,
-  .lifestyle-grid,
-  .tribe-sale-prod,
-  .b-sale-prod {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px;
-  }
-
-  .product-card-sec img {
-    height: 70px;
-  }
-
-  .product-card-sec h5 {
-    font-size: 12px;
-  }
-
-  .explore-bestsellers-v h5 {
-    font-size: 14px;
-  }
-
-  #list {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  #first-a,
-  #first-b {
-    padding: 5px 15px;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-
-  .recent-prod-card img {
-    height: 200px;
-  }
-
-  .additional {
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-
-  .additional button {
-    margin: 15px 0 0 0;
-    padding: 4px 10px;
-    font-size: 6px;
-  }
-
-  .add button {
-    padding: 8px 50px;
-    font-size: 12px;
-  }
-
-  .lifestyle-card h3 {
-    font-size: 16px;
-  }
-
-  .tribe-product-card video {
-    height: 85%;
-  }
-
-  .small-img img {
-    width: 45px;
-    height: 45px;
-    bottom: 60px;
-  }
-
-  .base h3 {
-    font-size: 12px;
-  }
-
-  .base .price {
-    font-size: 14px;
-  }
-
-  .b-product-card img {
-    height: 140px;
-  }
-
-  .texts {
-    height: 140px;
-  }
-
-  #sp2 {
-    font-size: 16px;
-  }
-
-  #sp3 {
-    font-size: 13px;
-  }
-
-  button#b-add {
-    padding: 12px 50px;
-    font-size: 11px;
-  }
-
-  .bw-img {
-    height: 200px;
-  }
-
-  .bw-texts p {
-    font-size: 16px;
-  }
-
-  .footer-links.a {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-column h4 {
-    font-size: 15px;
-  }
-
-  .footer-column h5 {
-    font-size: 14px;
-  }
-
-  .footer-column ul li a {
-    font-size: 12px;
-  }
-
-  .social-section h3 {
-    font-size: 15px;
-  }
-
-  .policy-links a {
-    font-size: 12px;
-  }
-
-  .copyright,
-  .contact-info {
-    font-size: 11px;
-  }
-
-  .fixed-icons img {
-    width: 40px;
-    height: 40px;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .top-offer {
-    font-size: 10px;
-    padding: 6px 0;
-  }
-
-  .navbar {
-    top: 28px;
-    padding: 5px 8px;
-  }
-
-  .logo img {
-    height: 24px;
-  }
-
-  .nav-links {
-    gap: 10px;
-    font-size: 12px;
-  }
-
-  .nav-links a {
-    font-size: 12px;
-  }
-
-  .nav-actions {
-    gap: 10px;
-  }
-
-  .search-box {
-    padding: 4px 10px;
-    border-radius: 15px;
-  }
-
-  .search-box input {
-    font-size: 10px;
-    padding: 4px 15px 4px 0;
-    width: 90px;
-  }
-
-  .icon {
-    font-size: 14px;
-  }
-
-  .adds {
-    margin-top: 100px;
-  }
-
-  .adds button {
-    padding: 8px;
-    font-size: 10px;
-  }
-
-  #b-a {
-    left: 5px;
-  }
-
-  #b-b {
-    right: 5px;
-  }
-
-  .sale-section,
-  .shop-by-categories,
-  .explore-bestsellers,
-  .lifestyle {
-    padding: 5px 10px 3px 10px;
-  }
-
-  .sale-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .sale-header h2 {
-    font-size: 18px;
-  }
-
-  .sale-prod,
-  .sale-prod-cat,
-  .explore-bestsellers-prod,
-  .recent-prod,
-  .lifestyle-grid,
-  .tribe-sale-prod,
-  .b-sale-prod {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-
-  .product-card h3 {
-    font-size: 12px;
-    padding: 5px 0 0 5px;
-  }
-
-  .price {
-    padding-left: 5px;
-    font-size: 14px;
-  }
-
-  .price .old,
-  .price .discount {
-    font-size: 10px;
-  }
-
-  .tag {
-    font-size: 10px;
-    padding: 5px;
-  }
-
-  .rating {
-    font-size: 10px;
-    padding: 1px 4px;
-  }
-
-  .badge {
-    font-size: 10px;
-    padding: 3px 6px;
-  }
-
-  .product-card-sec img {
-    height: 60px;
-  }
-
-  .product-card-sec h5 {
-    font-size: 11px;
-  }
-
-  .explore-bestsellers-v video {
-    margin: 10px 0 5px 0;
-  }
-
-  .explore-bestsellers-v h5 {
-    font-size: 12px;
-  }
-
-  #first-a,
-  #first-b {
-    padding: 4px 12px;
-    font-size: 12px;
-  }
-
-  .recent-prod-card img {
-    height: 150px;
-  }
-
-  .rec-tag {
-    font-size: 10px;
-    padding: 4px 6px;
-  }
-
-  .recent-prod-card h3 {
-    font-size: 11px;
-    padding: 5px 0 0 5px;
-  }
-
-  .or-div span {
-    width: 200px;
-  }
-
-  .additional button {
-    padding: 3px 8px;
-    font-size: 5px;
-    margin: 10px 0 0 0;
-  }
-
-  .add button {
-    padding: 6px 30px;
-    font-size: 10px;
-  }
-
-  .lifestyle-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .lifestyle-card {
-    padding: 10px;
-  }
-
-  .lifestyle-card h3 {
-    font-size: 14px;
-  }
-
-  .view {
-    font-size: 12px;
-  }
-
-  .tribe-sale-prod {
-    grid-template-columns: 1fr;
-  }
-
-  .tribe-product-card video {
-    height: 80%;
-  }
-
-  .small-img img {
-    width: 40px;
-    height: 40px;
-    bottom: 50px;
-  }
-
-  .base h3 {
-    font-size: 11px;
-  }
-
-  .base .price {
-    font-size: 12px;
-  }
-
-  .b-sale-prod {
-    grid-template-columns: 1fr;
-  }
-
-  .b-product-card img {
-    height: 120px;
-  }
-
-  .texts {
-    height: 160px;
-  }
-
-  #sp1 {
-    font-size: 12px;
-  }
-
-  #sp2 {
-    font-size: 14px;
-  }
-
-  #sp3 {
-    font-size: 12px;
-  }
-
-  button#b-add {
-    padding: 10px 40px;
-    font-size: 10px;
-  }
-
-  .bw-product-card {
-    flex-direction: column;
-  }
-
-  .bw-img {
-    width: 100%;
-    height: 150px;
-  }
-
-  .bw-texts p {
-    font-size: 14px;
-    padding: 15px;
-  }
-
-  .bw-product-card button {
-    padding: 8px;
-  }
-
-  #b-c,
-  #b-d {
-    position: static;
-    margin: 10px 5px;
-  }
-
-  .f-footer,
-  .footer {
-    padding: 20px 10px;
-  }
-
-  .footer-subscribe h3 {
-    font-size: 16px;
-  }
-
-  .subscribe-form {
-    max-width: 100%;
-  }
-
-  .footer-column {
-    margin-bottom: 20px;
-  }
-
-  .footer-column h4 {
-    font-size: 14px;
-  }
-
-  .footer-column h5 {
-    font-size: 13px;
-  }
-
-  .footer-column ul li a {
-    font-size: 11px;
-  }
-
-  .social-section h3 {
-    font-size: 14px;
-  }
-
-  .social-icons a {
-    font-size: 18px;
-    margin: 0 5px;
-  }
-
-  .policy-links a {
-    font-size: 11px;
-    margin: 0 3px;
-  }
-
-  .copyright {
-    font-size: 10px;
-  }
-
-  .contact-info {
-    font-size: 10px;
-  }
-
-  .fixed-icons {
-    bottom: 10px;
-    right: 10px;
-    }
-    
-  .fixed-icons img {
-    width: 35px;
-    height: 35px;
-  }
-} */
-
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .sale-section,
   .lifestyle,
@@ -1505,12 +899,12 @@ button#b-add {
     top: 58%;
   }
   #b-b {
-    right: -570px;
+    right: -755px;
     top: 58%;
   }
   .sale-header h2 {
     font-size: 75px;
-    margin: 12% 0 5% 0;
+    margin: 5% 0 5% 0;
   }
   .sale-header a {
     display: none;
@@ -1522,9 +916,6 @@ button#b-add {
       minmax(410px, 1fr)
     ); /* grid-template-rows: repeat(2, 500px 1fr); */
     gap: 20px;
-  }
-  #imgbgB {
-    display: none;
   }
   .shop-by-categories {
     display: none;
@@ -1546,7 +937,8 @@ button#b-add {
     grid-template-columns: none;
   }
   .b-product-card img {
-    height: 415px;
+    height: 0%;
+    border-radius: 20px;
   }
   .texts {
     /* height: 220px; */
@@ -1578,18 +970,25 @@ button#b-add {
     font-size: 55px;
   }
   .bw-img {
-    background-color: white;
+    background-color: #f6f8fa;
   }
   .bw-img img {
     height: 80%;
   }
   #b-c {
     font-size: 38px;
-    right: 340px;
+    right: 40%;
   }
   #b-d {
     font-size: 38px;
-    left: 340px;
+    left: 40%;
+  }
+  #imgbgA {
+    display: block;
+    border-radius: 30px;
+  }
+  #imgbgB {
+    display: none;
   }
   .footer-subscribe {
     align-items: center;
@@ -1606,7 +1005,8 @@ button#b-add {
   }
   .subscribe-form {
     max-width: 90%;
-    height: 86px;
+    height: 130px;
+    margin-bottom: 10%;
   }
   .footer-column h4 {
     font-size: 44px;
@@ -1624,13 +1024,25 @@ button#b-add {
     grid-template-columns: none;
     grid-template-rows: none;
   }
+  #first-a {
+    font-size: 32px;
+  }
+  #first-b {
+    font-size: 30px;
+  }
+  .fixed-icons img {
+    width: 90%;
+    height: 90%;
+  }
   .social-section h3 {
     font-size: 43px;
   }
   .social-icons a {
     font-size: 60px;
   }
-
+  .subscribe-form button {
+    font-size: 30px;
+  }
   .policy-links a {
     margin-top: 40px;
     font-size: 38px;
@@ -1641,7 +1053,56 @@ button#b-add {
   }
   .contact-info {
     margin-top: 40px;
-    font-size: 48px;
+    font-size: 36px;
+  }
+  .price {
+    font-size: 32px;
+  }
+  .price .old {
+    font-size: 28px;
+  }
+  .price .discount {
+    font-size: 22px;
+  }
+  .product-card h3 {
+    font-size: 40px;
+  }
+  .rating {
+    font-size: 22px;
+  }
+  .tag.yellow {
+    font-size: 30px;
+  }
+  .badge {
+    font-size: 28px;
+  }
+  .recent-prod {
+    grid-template-columns: repeat(2, minmax(0%, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(50%, 1fr));
+  }
+  .recent-prod-card img {
+    height: 100%;
+  }
+  .rec-tag.yellow {
+    font-size: 28px;
+  }
+  .recent-prod-card h3 {
+    font-size: 34px;
+  }
+  .additional button {
+    font-size: 20px;
+  }
+  .add button {
+    font-size: 28px;
+  }
+  .lifestyle-grid {
+    grid-template-columns: repeat(2, minmax(290px, 1fr));
+  }
+  .lifestyle-card h3 {
+    font-size: 38px;
+  }
+  .view {
+    font-size: 28px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -1857,7 +1318,7 @@ button#b-add {
     font-size: 70px;
   }
   .bw-img {
-    background-color: #f4fbff;
+    background-color: #f6f8fa;
     height: 400px;
   }
   .bw-img img {
